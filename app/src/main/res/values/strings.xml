@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Reiko Announcement Tool</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="takeno">竹野線</string>
+    <string name="takenoex">竹野特急</string>
+    <string name="yumura">湯村線</string>
+    <string name="back">◀</string>
+    <string name="next">▶</string>
+    <string name="announce_1">1.確認放送</string>
+    <string name="announce_2">2.始発放送</string>
+    <string name="announce_3">3.終着放送</string>
+    <string name="announce_menu">メニュー放送</string>
+    <string name="backJp">戻る</string>
+
+    <string name="takenoex1">竹野行き</string>
+    <string name="takenoex2">八尾BS･本社行き</string>
+
+    <string name="takeno1">竹野行き</string>
+    <string name="takeno2">八尾BS止</string>
+    <string name="takeno3">八尾BS･本社行き</string>
+</resources>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="110dp"
+        android:layout_height="90dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="591dp"
+        android:layout_marginBottom="217dp"
+        android:background="@drawable/button_select_background"
+        android:onClick="onClick"
+        android:text="@string/takenoex"
+        android:textColor="#191919"
+        android:fontFamily="@font/rodin"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="110dp"
+        android:layout_height="90dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="451dp"
+        android:layout_marginBottom="217dp"
+        android:background="@drawable/button_select_background"
+        android:onClick="onClick"
+        android:text="@string/takeno"
+        android:textColor="#191919"
+        android:fontFamily="@font/rodin"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="110dp"
+        android:layout_height="90dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="311dp"
+        android:layout_marginBottom="217dp"
+        android:background="@drawable/button_select_background"
+        android:onClick="onClick"
+        android:text="@string/yumura"
+        android:textColor="#191919"
+        android:fontFamily="@font/rodin"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="110dp"
+        android:layout_height="90dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="171dp"
+        android:layout_marginBottom="217dp"
+        android:background="@drawable/button_select_background"
+        android:onClick="onClick"
+        android:text="14"
+        android:textColor="#191919"
+        android:fontFamily="@font/rodin"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="110dp"
+        android:layout_height="90dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="217dp"
+        android:background="@drawable/button_select_background"
+        android:onClick="onClick"
+        android:text="15"
+        android:textColor="#191919"
+        android:fontFamily="@font/rodin"
+        android:textSize="22sp" />
+
+
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="110dp"
+        android:layout_height="90dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="591dp"
+        android:layout_marginBottom="115dp"
+        android:onClick="onClick"
+        android:text="21"
+        android:textColor="#191919"
+        android:fontFamily="@font/rodin"
+        android:textSize="22sp"
+        android:background="@drawable/button_select_background" />
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="110dp"
+        android:layout_height="90dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="451dp"
+        android:layout_marginBottom="115dp"
+        android:onClick="onClick"
+        android:text="22"
+        android:textColor="#191919"
+        android:fontFamily="@font/rodin"
+        android:textSize="22sp"
+        android:background="@drawable/button_select_background" />
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="110dp"
+        android:layout_height="90dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="311dp"
+        android:layout_marginBottom="115dp"
+        android:onClick="onClick"
+        android:text="23"
+        android:textColor="#191919"
+        android:fontFamily="@font/rodin"
+        android:textSize="22sp"
+        android:background="@drawable/button_select_background" />
+
+    <Button
+        android:id="@+id/button24"
+        android:layout_width="110dp"
+        android:layout_height="90dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="171dp"
+        android:layout_marginBottom="115dp"
+        android:onClick="onClick"
+        android:text="24"
+        android:textColor="#191919"
+        android:fontFamily="@font/rodin"
+        android:textSize="22sp"
+        android:background="@drawable/button_select_background" />
+
+    <Button
+        android:id="@+id/button25"
+        android:layout_width="110dp"
+        android:layout_height="90dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="115dp"
+        android:onClick="onClick"
+        android:text="25"
+        android:textColor="#191919"
+        android:fontFamily="@font/rodin"
+        android:textSize="22sp"
+        android:background="@drawable/button_select_background" />
+
+
+
+    <Button
+        android:id="@+id/button31"
+        android:layout_width="110dp"
+        android:layout_height="90dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="591dp"
+        android:layout_marginBottom="15dp"
+        android:onClick="onClick"
+        android:text="31"
+        android:textColor="#191919"
+        android:fontFamily="@font/rodin"
+        android:textSize="22sp"
+        android:background="@drawable/button_select_background" />
+
+    <Button
+        android:id="@+id/button32"
+        android:layout_width="110dp"
+        android:layout_height="90dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="451dp"
+        android:layout_marginBottom="15dp"
+        android:onClick="onClick"
+        android:text="32"
+        android:textColor="#191919"
+        android:fontFamily="@font/rodin"
+        android:textSize="22sp"
+        android:background="@drawable/button_select_background" />
+
+    <Button
+        android:id="@+id/button33"
+        android:layout_width="110dp"
+        android:layout_height="90dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="311dp"
+        android:layout_marginBottom="15dp"
+        android:onClick="onClick"
+        android:text="33"
+        android:textColor="#191919"
+        android:fontFamily="@font/rodin"
+        android:textSize="22sp"
+        android:background="@drawable/button_select_background" />
+
+    <Button
+        android:id="@+id/button35"
+        android:layout_width="110dp"
+        android:layout_height="90dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="15dp"
+        android:text="@string/next"
+        android:textColor="#191919"
+        android:fontFamily="@font/rodin"
+        android:textSize="40sp"
+        android:onClick="onClick"
+        android:background="@drawable/button_move_background"
+        tools:ignore="TextContrastCheck" />
+
+</RelativeLayout>
