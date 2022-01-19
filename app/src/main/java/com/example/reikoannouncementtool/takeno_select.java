@@ -25,7 +25,7 @@ public class takeno_select extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_takenoexp_select);
+        setContentView(R.layout.activity_takeno_select);
 
         //beep 初期化
         if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {

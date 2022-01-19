@@ -25,7 +25,7 @@ public class menu_takeno_yaobs extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_menu_takenoexp_take);
+        setContentView(R.layout.activity_menu_takeno_yaobs);
 
         //beep 初期化
         if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
