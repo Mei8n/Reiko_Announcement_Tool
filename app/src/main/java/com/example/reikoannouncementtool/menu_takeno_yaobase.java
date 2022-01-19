@@ -52,22 +52,22 @@ public class menu_takeno_yaobase extends Activity {
             startActivity(intent);
         }
 
-        else if(v.getId() == R.id.takeno_take_pl_button1){
+        else if(v.getId() == R.id.takeno_yaobase_pl_button1){
             p = MediaPlayer.create(getApplicationContext(), R.raw.an_102b0); //定義
             p.start(); //再生
         }
 
-        else if(v.getId() == R.id.takeno_take_pl_button2){
+        else if(v.getId() == R.id.takeno_yaobase_pl_button2){
             p = MediaPlayer.create(getApplicationContext(), R.raw.an_102b1); //定義
             p.start(); //再生
         }
 
-        else if(v.getId() == R.id.takeno_take_pl_button3){
+        else if(v.getId() == R.id.takeno_yaobase_pl_button3){
             p = MediaPlayer.create(getApplicationContext(), R.raw.an_102b2); //定義
             p.start(); //再生
         }
 
-        else if (v.getId() == R.id.takeno_take_one_back){
+        else if (v.getId() == R.id.takeno_yaobase_one_back){
             Intent intent = new Intent(getApplicationContext(), takeno_select.class);
             startActivity(intent);
         }
