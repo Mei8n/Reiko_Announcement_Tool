@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".menu_takeno_take">
+    tools:context=".menu_takenoexp_yaobase">
 
     <ImageView
         android:id="@+id/imageView"
@@ -24,46 +24,73 @@
         tools:layout_editor_absoluteY="48dp" />
 
     <Button
-        android:id="@+id/takenoex_select_1"
-        android:layout_width="310dp"
+        android:id="@+id/takenoexp_yao_pl_button1"
+        android:layout_width="200dp"
         android:layout_height="150dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginEnd="376dp"
+        android:layout_marginEnd="490dp"
         android:layout_marginBottom="120dp"
-        android:background="@drawable/button_select_background"
-        android:fontFamily="@font/rodin"
+        android:background="@drawable/button_play_background"
+        android:text="@string/announce_1"
         android:onClick="onClick"
-        android:text="@string/takenoex1"
         android:textSize="25sp"
+        android:fontFamily="@font/rodin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/takenoexp_yao_pl_button2"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="120dp"
+        android:background="@drawable/button_play_background"
+        android:text="@string/announce_2"
+        android:onClick="onClick"
+        android:textSize="25sp"
+        android:fontFamily="@font/rodin"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/takenoex_select_2"
-        android:layout_width="310dp"
+        android:id="@+id/takenoexp_yao_pl_button3"
+        android:layout_width="200dp"
         android:layout_height="150dp"
-        android:layout_marginEnd="30dp"
+        android:layout_marginStart="470dp"
         android:layout_marginBottom="120dp"
-        android:background="@drawable/button_select_background"
-        android:fontFamily="@font/rodin"
+        android:background="@drawable/button_play_background"
+        android:text="@string/announce_3"
         android:onClick="onClick"
-        android:text="@string/takenoex2"
         android:textSize="25sp"
+        android:fontFamily="@font/rodin"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/takenoex_one_back"
+        android:id="@+id/takenoexp_yao_one_back"
         android:layout_width="120dp"
         android:layout_height="80dp"
         android:layout_marginEnd="588dp"
         android:layout_marginBottom="20dp"
         android:background="@drawable/button_back_background"
-        android:fontFamily="@font/rodin"
         android:onClick="onClick"
         android:text="@string/backJp"
         android:textSize="22sp"
+        android:fontFamily="@font/rodin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/menu_voice"
+        android:layout_width="500dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_select_background"
+        android:onClick="onClick"
+        android:text="@string/announce_menu"
+        android:textSize="22sp"
+        android:fontFamily="@font/rodin"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -72,10 +99,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="320dp"
-        android:fontFamily="@font/rodin"
-        android:text="竹野線特急 経路選択"
+        android:text="竹野線特急 冷交本社前行き"
         android:textColor="@color/black"
         android:textSize="35dp"
+        android:fontFamily="@font/rodin"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

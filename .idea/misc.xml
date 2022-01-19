@@ -15,13 +15,18 @@
         <entry key="..\:/Users/Meihan/AndroidStudioProjects/ReikoAnnouncementTool/app/src/main/res/layout/activity_menu_announce.xml" value="0.2694746376811594" />
         <entry key="..\:/Users/Meihan/AndroidStudioProjects/ReikoAnnouncementTool/app/src/main/res/layout/activity_menu_takeno.xml" value="0.25" />
         <entry key="..\:/Users/Meihan/AndroidStudioProjects/ReikoAnnouncementTool/app/src/main/res/layout/activity_menu_takeno_basstop.xml" value="0.3496376811594203" />
+        <entry key="..\:/Users/Meihan/AndroidStudioProjects/ReikoAnnouncementTool/app/src/main/res/layout/activity_menu_takeno_take.xml" value="0.3578125" />
         <entry key="..\:/Users/Meihan/AndroidStudioProjects/ReikoAnnouncementTool/app/src/main/res/layout/activity_menu_takeno_yaobase.xml" value="0.3496376811594203" />
+        <entry key="..\:/Users/Meihan/AndroidStudioProjects/ReikoAnnouncementTool/app/src/main/res/layout/activity_menu_takeno_yaobs.xml" value="0.371875" />
         <entry key="..\:/Users/Meihan/AndroidStudioProjects/ReikoAnnouncementTool/app/src/main/res/layout/activity_menu_takenoex.xml" value="0.3496376811594203" />
         <entry key="..\:/Users/Meihan/AndroidStudioProjects/ReikoAnnouncementTool/app/src/main/res/layout/activity_menu_takenoex_take.xml" value="0.3148148148148148" />
         <entry key="..\:/Users/Meihan/AndroidStudioProjects/ReikoAnnouncementTool/app/src/main/res/layout/activity_menu_takenoex_yaobase.xml" value="0.3496376811594203" />
         <entry key="..\:/Users/Meihan/AndroidStudioProjects/ReikoAnnouncementTool/app/src/main/res/layout/activity_menu_takenoexp.xml" value="0.33" />
+        <entry key="..\:/Users/Meihan/AndroidStudioProjects/ReikoAnnouncementTool/app/src/main/res/layout/activity_menu_takenoexp_take.xml" value="0.5903614457831325" />
+        <entry key="..\:/Users/Meihan/AndroidStudioProjects/ReikoAnnouncementTool/app/src/main/res/layout/activity_menu_takenoexp_yaobase.xml" value="0.5903614457831325" />
         <entry key="..\:/Users/Meihan/AndroidStudioProjects/ReikoAnnouncementTool/app/src/main/res/layout/activity_takeno_select.xml" value="0.33" />
         <entry key="..\:/Users/Meihan/AndroidStudioProjects/ReikoAnnouncementTool/app/src/main/res/layout/activity_takenoex_select.xml" value="0.33" />
+        <entry key="..\:/Users/Meihan/AndroidStudioProjects/ReikoAnnouncementTool/app/src/main/res/layout/activity_takenoexp_select.xml" value="0.371875" />
         <entry key="..\:/Users/Meihan/AndroidStudioProjects/ReikoAnnouncementTool/app/src/main/res/layout/manu_takeno.xml" value="0.2957427536231884" />
       </map>
     </option>

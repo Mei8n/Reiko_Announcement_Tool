@@ -13,7 +13,7 @@ import android.view.View;
 
 import android.os.Bundle;
 
-public class menu_takenoex_take extends Activity {
+public class takeno_select extends Activity {
 
     int beep;
     SoundPool soundPool;
@@ -25,7 +25,7 @@ public class menu_takenoex_take extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_menu_takenoex_take);
+        setContentView(R.layout.activity_takenoexp_select);
 
         //beep 初期化
         if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
@@ -47,36 +47,24 @@ public class menu_takenoex_take extends Activity {
     public void onClick(View v) {
         play_beep();
 
-        if (v.getId() == R.id.menu_voice){
-            Intent intent = new Intent(getApplicationContext(), menu_announce.class);
+        if (v.getId() == R.id.takeno_select_1){
+            Intent intent = new Intent(getApplicationContext(), menu_takeno_take.class);
             startActivity(intent);
         }
 
-        else if(v.getId() == R.id.takenoex_take_pl_button1){
-            p = MediaPlayer.create(getApplicationContext(), R.raw.an_101a0); //定義
-            p.start(); //再生
-        }
-
-        else if(v.getId() == R.id.takenoex_take_pl_button2){
-            p = MediaPlayer.create(getApplicationContext(), R.raw.an_101a1); //定義
-            p.start(); //再生
-        }
-
-        else if(v.getId() == R.id.takenoex_take_pl_button3){
-            p = MediaPlayer.create(getApplicationContext(), R.raw.an_101a2); //定義
-            p.start(); //再生
-        }
-
-        else if (v.getId() == R.id.takenoex_take_one_back){
-            Intent intent = new Intent(getApplicationContext(), takenoex_select.class);
+        else if(v.getId() == R.id.takeno_select_2){
+            Intent intent = new Intent(getApplicationContext(), menu_takeno_yaobase.class);
             startActivity(intent);
         }
-    }
 
-    @Override//解放作業
-    protected void onDestroy() {
-        super.onDestroy();
-        p.release();//メモリ解放
-        p = null; //破棄
+        else if(v.getId() == R.id.takeno_select_3){
+            Intent intent = new Intent(getApplicationContext(), menu_takeno_yaobs.class);
+            startActivity(intent);
+        }
+
+        else if(v.getId() == R.id.takeno_one_back){
+            Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+            startActivity(intent);
+        }
     }
 }

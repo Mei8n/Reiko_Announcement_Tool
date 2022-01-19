@@ -45,11 +45,16 @@ public class MainActivity extends Activity {
         play_beep();
 
         if (v.getId() == R.id.button11) {
-            Intent intent = new Intent(getApplicationContext(), takenoex_select.class);
+            Intent intent = new Intent(getApplicationContext(), takenoexp_select.class);
             startActivity(intent);
         }
 
-        else if (v.getId() == R.id.button35) {
+        if (v.getId() == R.id.button12) {
+            Intent intent = new Intent(getApplicationContext(), takeno_select.class);
+            startActivity(intent);
+        }
+
+        if (v.getId() == R.id.button35) {
             Intent intent = new Intent(getApplicationContext(), activity_main_2page.class);
             startActivity(intent);
         }

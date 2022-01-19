@@ -10,15 +10,31 @@
         android:supportsRtl="true"
         android:theme="@android:style/Theme.Black.NoTitleBar">
         <activity
-            android:name=".menu_takenoex_yaobase"
+            android:name=".menu_takeno_yaobs"
             android:exported="false"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".menu_takenoex_take"
+            android:name=".menu_takeno_yaobase"
             android:exported="false"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".takenoex_select"
+            android:name=".menu_takeno_take"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".takeno_select"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".menu_takenoexp_yaobase"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".menu_takenoexp_take"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".takenoexp_select"
             android:exported="false"
             android:screenOrientation="landscape" />
         <activity
